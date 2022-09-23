@@ -1,0 +1,29 @@
+[INFO ] 2022-09-23 16:31:23.837 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 16:31:24.437 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 16:39:08.909 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 16:39:09.521 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 16:41:48.961 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 16:41:49.510 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 16:53:12.121 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 16:53:12.687 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 16:53:39.594 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 16:53:40.173 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 16:54:09.057 [main]  - Employee Added : true
+[INFO ] 2022-09-23 17:09:00.358 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 17:09:00.989 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 17:14:26.976 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 17:14:27.631 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 17:19:25.003 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 17:19:25.666 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 17:20:16.924 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 17:20:17.572 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 17:20:49.044 [main]  - Employee Added : true
+[INFO ] 2022-09-23 17:20:51.543 [main]  - FirstName:rohit PhoneNumber:9876543221
+[INFO ] 2022-09-23 17:21:19.462 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 17:21:20.169 [main]  - EmployeesRepositoryImpl Constructer is called
+[ERROR] 2022-09-23 17:21:38.150 [main]  - Employee Added : false
+[INFO ] 2022-09-23 17:22:14.105 [main]  - Employee Service Constructer is called
+[INFO ] 2022-09-23 17:22:14.750 [main]  - EmployeesRepositoryImpl Constructer is called
+[INFO ] 2022-09-23 17:22:31.408 [main]  - Employee Added : true
+[INFO ] 2022-09-23 17:22:37.068 [main]  - FirstName:gdywfd PhoneNumber:8367253
+[INFO ] 2022-09-23 17:22:37.068 [main]  - FirstName:rohit PhoneNumber:9876543221
