@@ -54,9 +54,9 @@ public class EmployeesService {
 	/*3rd*/
 	public void findAllWithFirstNameAndPhoneNumber() throws ElementNotFoundException {
 		Map<String, String> map=this.empList.stream()
-				.collect(Collectors.toMap(Employees::getFirstName,Employees::getPhoneNumber ));
+				.collect(Collectors.toMap(Employees::getPhoneNumber,Employees::getFirstName ));
 		Collection<String> list=new ArrayList<>();
-		 map.forEach((x,y)->list.add("FirstName:"+x+" PhoneNumber:"+y));
+		 map.forEach((x,y)->list.add("FirstName:"+y+" PhoneNumber:"+x));
 		if(map.size()==0) {
     		throw new ElementNotFoundException("ERR-102","No employees Exist");
     	}
@@ -98,12 +98,12 @@ public class EmployeesService {
 		Map<String,String> map= this.empList.stream()
 				.filter(e->e.getDateOfBirth()
 				.equals(dateOfBirth))
-				.collect(toMap(Employees::getFirstName,Employees::getPhoneNumber));
+				.collect(toMap(Employees::getPhoneNumber,Employees::getFirstName));
 		if(map.size()==0) {
     		throw new ElementNotFoundException("ERR-102","No employee with date of Birth "+dateOfBirth);
     	}
     	else {
-    		map.forEach((firstname,phonenumber)-> System.out.println(firstname + "," + phonenumber));
+    		map.forEach((phonenumber,firstname)-> System.out.println(firstname + "," + phonenumber));
     	}
 	}
 	
@@ -112,12 +112,12 @@ public class EmployeesService {
 		Map<String,String> map= this.empList.stream()
 				.filter(e->e.getWeddingDate()
 				.equals(weddingDate))
-				.collect(toMap(Employees::getFirstName,Employees::getPhoneNumber));
+				.collect(toMap(Employees::getPhoneNumber,Employees::getFirstName));
 		if(map.size()==0) {
     		throw new ElementNotFoundException("ERR-102","No employee with wedding date "+weddingDate);
     	}
     	else {
-    		map.forEach((firstname,phonenumber)-> System.out.println(firstname + "," + phonenumber));
+    		map.forEach((phonenumber,firstname)-> System.out.println(firstname + "," + phonenumber));
     	}
 	}
 }
